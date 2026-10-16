@@ -1,0 +1,798 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>+30 Modelos de Evoluções de Enfermagem | Profa. Maria Emília Barbosa</title>
+<meta name="description" content="+30 modelos de evoluções com diagnósticos e prescrições de enfermagem para urgência, emergência e UTI. Prontos para copiar, adaptar ao seu paciente e evoluir com segurança.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=DM+Sans:wght@500;600;700&family=Hanken+Grotesk:wght@300;400;600&family=Inter:wght@300;400;500;700&family=Instrument+Sans:wght@400;500;700&family=Montserrat:wght@500&family=Poppins:wght@400;600;700&family=Roboto:wght@600&display=swap" rel="stylesheet">
+
+<style>
+/* =========================================================
+   IMAGENS LOCAIS (pasta /imagens ao lado deste arquivo)
+   ========================================================= */
+:root{
+  --img-hero: url("imagens/hero-desktop.webp");
+  --img-secao: url("imagens/bg-secao.png");
+  --img-secao-mobile: url("imagens/bg-secao-mobile.avif");
+  --img-card: url("imagens/bg-card.avif");
+
+  --azul: #0A1C2D;
+  --escuro: #080E13;
+  --noite: #090C15;
+  --vinho: #140505;
+  --areia: #FBD19C;
+  --dourado: #D4AE6E;
+  --cinza-txt: #C8C8C4;
+  --verde-1: #006700;
+  --verde-2: #00BB01;
+  --verde-preco: #16701F;
+
+  --f-display: "Bebas Neue", Impact, sans-serif;
+  --f-body: "Helvetica Now Display", "Inter", "Helvetica Neue", Arial, sans-serif;
+  --f-btn: "DM Sans", "Inter", sans-serif;
+  --f-inst: "Instrument Sans", "Inter", sans-serif;
+  --f-hanken: "Hanken Grotesk", "Inter", sans-serif;
+  --f-pop: "Poppins", "Inter", sans-serif;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:var(--noite);
+  color:#fff;
+  font-family:var(--f-body);
+  font-size:17px;
+  line-height:1.4;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+img{max-width:100%;height:auto;display:block}
+h1,h2,h3,p{margin:0}
+a{color:inherit}
+
+.wrap{width:100%;max-width:1140px;margin:0 auto;padding:0 20px}
+.center{text-align:center}
+.stack{display:flex;flex-direction:column;gap:20px}
+
+/* ---------- Títulos ---------- */
+.display{
+  font-family:var(--f-display);
+  font-weight:400;
+  line-height:1.1;
+  letter-spacing:.3px;
+  text-transform:uppercase;
+}
+.t-areia{color:var(--areia)}
+.t-escuro{color:var(--escuro)}
+
+/* ---------- Botões ---------- */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;
+  text-align:center;text-decoration:none;
+  font-family:var(--f-btn);font-weight:600;font-size:16px;line-height:1.3;
+  color:#fff;
+  padding:25px 50px;
+  border:1px solid var(--areia);
+  border-radius:999px;
+  background:linear-gradient(80deg,var(--verde-1) 0%,var(--verde-2) 100%);
+  box-shadow:0 4px 60px rgba(0,187,1,.35);
+  transition:transform .25s ease, box-shadow .25s ease, filter .25s ease;
+  max-width:100%;
+}
+.btn:hover{transform:translateY(-3px) scale(1.02);box-shadow:0 10px 60px rgba(0,187,1,.55);filter:brightness(1.05)}
+.btn:focus-visible{outline:3px solid var(--areia);outline-offset:4px}
+.pulse{animation:pulse 2.4s ease-in-out infinite}
+@keyframes pulse{0%,100%{box-shadow:0 4px 60px rgba(0,187,1,.35)}50%{box-shadow:0 4px 70px rgba(0,187,1,.7)}}
+
+/* =========================================================
+   1. HERO
+   ========================================================= */
+.hero{
+  min-height:880px;
+  background:var(--escuro) var(--img-hero) center center / cover no-repeat;
+  display:flex;align-items:center;
+}
+.hero .wrap{display:flex;align-items:center;gap:30px;max-width:1240px}
+.hero-txt{flex:0 0 50%;display:flex;flex-direction:column;gap:26px;align-items:flex-start}
+.hero-logo{width:46%;max-width:240px}
+.hero h1{font-size:51px;font-weight:700;line-height:1.2;max-width:576px;color:#fff}
+.hero-sub{font-family:"Inter",sans-serif;font-size:18px;line-height:1.4;max-width:543px}
+.hero-img{flex:1 1 50%}
+.hero-img img{width:100%}
+
+/* =========================================================
+   2. INTRO (card azul)
+   ========================================================= */
+.intro{
+  padding:80px 20px 120px;
+  background:linear-gradient(180deg,var(--vinho) 0%,var(--escuro) 100%);
+}
+.card-azul{
+  max-width:1100px;margin:0 auto;
+  min-height:290px;
+  padding:60px;
+  background:linear-gradient(180deg,var(--azul) 0%,var(--escuro) 100%);
+  border-top:1px solid var(--dourado);
+  display:flex;flex-direction:column;align-items:center;text-align:center;gap:20px;
+}
+.lead{
+  font-family:var(--f-inst);
+  font-size:25px;font-weight:400;line-height:1.2;max-width:852px;
+}
+.p-light{
+  font-size:16px;font-weight:300;line-height:1.5;color:var(--cinza-txt);max-width:788px;
+}
+.card-azul .btn{margin-top:20px;margin-bottom:-24px}
+
+/* =========================================================
+   3. A MÁGICA
+   ========================================================= */
+.magica{
+  min-height:600px;
+  padding:102px 0 139px;
+  background:var(--escuro) var(--img-secao) center center / cover no-repeat;
+}
+.magica .col{max-width:525px;display:flex;flex-direction:column;gap:20px}
+.magica h2{font-size:42px;max-width:504px}
+.box-escuro{
+  background:#111;border:1px solid #97907C;padding:25px;
+  font-size:17px;line-height:1.3;
+}
+.magica p{color:#E4E4E4;font-size:17px;line-height:1.3}
+.magica p.first{padding-top:8px}
+
+/* =========================================================
+   4. MÉTODO ABCDE + ROADMAP
+   ========================================================= */
+.metodo{
+  padding:102px 0 60px;
+  background:#080E13 var(--img-secao) center center / cover no-repeat;
+}
+.metodo .wrap{display:flex;flex-direction:column;align-items:center;gap:20px;text-align:center}
+.metodo h2{font-size:57px;max-width:1000px}
+.metodo .intro-txt{max-width:716px;font-size:17px}
+.abcde{width:100%;max-width:813px;display:flex;flex-direction:column;gap:12px}
+.abcde .box-escuro{text-align:left;display:flex;gap:16px;align-items:flex-start}
+.abcde .letra{
+  flex:0 0 40px;height:40px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  font-family:var(--f-display);font-size:24px;color:var(--escuro);background:var(--areia);
+}
+.abcde strong{color:var(--areia);font-weight:600}
+.metodo .depois{max-width:824px;font-size:17px;margin-top:10px}
+
+.frase-faixa{
+  background:#fff;color:var(--escuro);
+  padding:60px 20px 0;text-align:center;
+}
+.frase-faixa p{max-width:824px;margin:0 auto;font-size:28px;line-height:1.2}
+
+/* roadmap (código original do bloco HTML) */
+.roadmap-cuidados{--linha:rgba(255,255,255,.30);position:relative;width:100%;max-width:920px;margin:0 auto;padding:30px 15px;font-family:inherit;text-align:left}
+.roadmap-line{position:absolute;top:65px;bottom:65px;left:50%;transform:translateX(-50%);border-left:3px dotted var(--linha);z-index:0}
+.roadmap-item{position:relative;display:grid;grid-template-columns:minmax(0,1fr) 70px minmax(0,1fr);align-items:center;min-height:145px;z-index:2}
+.roadmap-card{position:relative;min-height:105px;display:flex;align-items:center;gap:20px;padding:18px 28px;overflow:hidden;background:linear-gradient(135deg,#0A1C2D 0%,#080E13 100%);border:1px solid rgba(255,255,255,.25);border-radius:60px;box-shadow:0 15px 35px rgba(0,0,0,.30);transition:transform .4s ease,box-shadow .4s ease,border-color .4s ease;width:100%}
+.roadmap-card::after{content:"";position:absolute;top:-100%;left:-80%;width:35%;height:300%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.13),transparent);transform:rotate(20deg);transition:left .8s ease;pointer-events:none}
+.roadmap-card:hover{transform:translateY(-6px) scale(1.015);border-color:rgba(255,255,255,.55);box-shadow:0 22px 50px rgba(0,0,0,.45),0 0 30px rgba(10,28,45,.40)}
+.roadmap-card:hover::after{left:145%}
+.roadmap-icon{flex:0 0 64px;width:64px;height:64px;display:flex;align-items:center;justify-content:center;border-radius:50%;background:linear-gradient(145deg,#fff,#d8e0e5);color:#0A1C2D;font-size:16px;font-weight:800;box-shadow:0 8px 20px rgba(0,0,0,.35);transition:transform .4s ease,box-shadow .4s ease}
+.roadmap-card:hover .roadmap-icon{transform:rotate(-6deg) scale(1.08)}
+.roadmap-content h3{margin:0;color:#fff;font-size:18px;font-weight:700;line-height:1.15;letter-spacing:.3px;font-family:"Inter",sans-serif}
+.roadmap-node{position:relative;justify-self:center;width:22px;height:22px;border-radius:50%;background:#080E13;border:3px solid rgba(255,255,255,.75);box-shadow:0 0 0 7px #080E13,0 0 0 8px rgba(255,255,255,.20);transition:transform .35s ease,box-shadow .35s ease;z-index:5}
+.roadmap-item:hover .roadmap-node{transform:scale(1.22)}
+.roadmap-step{padding:0 15px}
+.item-left .roadmap-card{grid-column:1}
+.item-left .roadmap-node{grid-column:2}
+.item-left .roadmap-step{grid-column:3}
+.item-right .roadmap-step{grid-column:1;grid-row:1}
+.item-right .roadmap-node{grid-column:2;grid-row:1}
+.item-right .roadmap-card{grid-column:3;grid-row:1}
+
+/* =========================================================
+   5. DIAGNÓSTICOS (fundo branco)
+   ========================================================= */
+.branco{background:#fff;color:var(--escuro);padding:80px 0}
+.branco h2{font-size:61px;max-width:700px;margin:0 auto 40px;text-align:center}
+.cards-3{display:flex;gap:20px;justify-content:center;flex-wrap:wrap}
+.card-grad{
+  flex:1 1 300px;max-width:368px;
+  padding:40px;
+  background:linear-gradient(180deg,var(--escuro) 0%,var(--azul) 100%);
+  border:1px solid #333;border-radius:6px;
+  font-family:var(--f-hanken);font-weight:300;font-size:18px;line-height:1.45;color:#D9D9D9;
+  display:flex;flex-direction:column;gap:20px;
+}
+.card-grad img{width:64px;height:64px;object-fit:contain}
+.cards-2 .card-grad{max-width:550px;flex-basis:420px}
+
+/* =========================================================
+   6. INTERCORRÊNCIAS
+   ========================================================= */
+.noite{background:var(--noite);padding:110px 0}
+.noite h2.big{font-size:57px;text-align:center;margin-bottom:20px}
+.noite .txt{max-width:900px;margin:0 auto;text-align:center;display:flex;flex-direction:column;gap:20px}
+.grid-brancos{
+  margin-top:50px;
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px;
+}
+.card-branco{
+  background:#fff;color:#090C15;border-radius:16px;padding:32px;
+  font-family:"Inter",sans-serif;font-weight:700;font-size:17px;line-height:1.35;
+  display:flex;flex-direction:column;gap:18px;
+  transition:transform .3s ease, box-shadow .3s ease;
+}
+.card-branco:hover{transform:translateY(-4px);box-shadow:0 18px 40px rgba(0,0,0,.35)}
+.num{
+  width:52px;height:52px;border-radius:50%;
+  display:flex;align-items:center;justify-content:center;
+  background:linear-gradient(145deg,var(--azul),var(--escuro));color:var(--areia);
+  font-family:var(--f-display);font-size:24px;font-weight:400;
+}
+
+/* =========================================================
+   7. O QUE MUDA / PARA QUEM (lista com check)
+   ========================================================= */
+.mega{font-size:100px;line-height:.9;text-align:center;margin-bottom:50px}
+.lista-check{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;max-width:1060px;margin:0 auto}
+.item-check{
+  display:flex;gap:14px;align-items:center;
+  background:#fff;color:#000;border-radius:14px;padding:24px;
+  font-family:"Inter",sans-serif;font-weight:700;font-size:16px;line-height:1.35;
+}
+.item-check svg{flex:0 0 40px;width:40px;height:40px}
+
+/* =========================================================
+   8. COPIAR E COLAR
+   ========================================================= */
+.copiar{
+  padding:80px 20px 120px;
+  background:linear-gradient(180deg,var(--noite) 0%,#fff 100%);
+}
+.copiar h2{font-size:58px;max-width:852px}
+.copiar .p-light{max-width:560px}
+.copiar .destaque{color:#fff;font-weight:500}
+.faixa-areia{
+  margin-top:24px;margin-bottom:-24px;
+  max-width:760px;
+  background:var(--areia);color:var(--escuro);
+  border-radius:12px;padding:25px 50px;
+  font-family:var(--f-btn);font-weight:700;font-size:16px;line-height:1.35;
+  box-shadow:0 4px 60px rgba(251,209,156,.35);
+}
+
+/* =========================================================
+   9. 30 CENÁRIOS / BLOCOS
+   ========================================================= */
+.cenarios{background:#fff;color:var(--escuro);padding:20px 0 80px}
+.cenarios .titulo{font-size:85px;font-weight:400;line-height:1;text-align:center;max-width:1009px;margin:0 auto 50px}
+.bloco{display:flex;border:1px solid var(--vinho);max-width:1140px;margin:0 auto}
+.bloco + .bloco{border-top:0}
+.bloco-txt{
+  flex:0 0 50%;min-height:400px;
+  background:var(--azul) var(--img-card) center / cover no-repeat;
+  display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;
+  padding:40px 30px;gap:14px;color:#fff;
+}
+.selo{
+  font-family:var(--f-display);font-size:27px;letter-spacing:2px;line-height:1;
+  color:#21524A;background:var(--areia);padding:8px 18px 5px;border-radius:999px;
+}
+.bloco-txt h3{font-family:var(--f-display);font-weight:400;font-size:35px;line-height:1.1;max-width:461px}
+.bloco-txt p{font-family:"Montserrat",sans-serif;font-weight:500;font-size:18px;line-height:1.45;color:rgba(255,255,255,.6);max-width:461px}
+.bloco-img{flex:0 0 50%;overflow:hidden;background:#0d1520}
+.bloco-img img{width:100%;height:100%;object-fit:cover;transition:transform .6s ease}
+.bloco:hover .bloco-img img{transform:scale(1.04)}
+
+/* =========================================================
+   10. REFERÊNCIA (branco) — reutiliza .branco/.card-grad
+   ========================================================= */
+.branco .btn-area{text-align:center;margin-top:50px}
+
+/* =========================================================
+   11. OFERTA
+   ========================================================= */
+.oferta{background:var(--noite);padding:100px 20px}
+.oferta-card{
+  max-width:705px;margin:0 auto;
+  background:#fff;color:#000;border-radius:15px;
+  padding:80px 35px;
+  display:flex;flex-direction:column;align-items:center;gap:24px;
+  box-shadow:0 30px 80px rgba(0,0,0,.45);
+}
+.pill{
+  background:linear-gradient(90deg,var(--azul),var(--escuro));color:#fff;
+  font-family:var(--f-inst);font-size:19px;text-align:center;
+  padding:18px 28px 15px;border-radius:999px;max-width:456px;width:100%;
+}
+.lista-oferta{list-style:none;margin:0;padding:0;max-width:463px;width:100%;font-family:var(--f-pop);font-size:18px;line-height:27px}
+.lista-oferta li{display:flex;gap:12px;padding:9px 0;border-bottom:1px solid #eee}
+.lista-oferta li:last-child{border-bottom:0}
+.lista-oferta svg{flex:0 0 22px;width:22px;height:22px;margin-top:3px}
+.de{font-family:var(--f-pop);font-size:16px}
+.de s{color:#a33}
+.preco{font-family:var(--f-pop);font-weight:700;font-size:84px;line-height:.9;letter-spacing:-5px;color:var(--verde-preco)}
+.preco small{font-size:.4em;letter-spacing:-1px;vertical-align:.9em;margin-right:6px}
+.seguro{font-family:var(--f-pop);font-size:13px;color:#555;display:flex;gap:8px;align-items:center}
+
+/* =========================================================
+   12. GARANTIA
+   ========================================================= */
+.garantia{background:var(--noite);padding:80px 0}
+.garantia .wrap{display:flex;align-items:center;gap:40px;justify-content:center}
+.garantia img{width:100%;max-width:360px}
+.garantia .g-txt{flex:0 1 46%;font-family:var(--f-pop)}
+.garantia h3{font-size:38px;font-weight:600;line-height:1.15;margin-bottom:14px}
+.garantia p{font-size:19px;color:#E4E4E4;line-height:1.5}
+
+/* =========================================================
+   13. SOBRE
+   ========================================================= */
+.sobre{background:var(--noite);padding:120px 0}
+.sobre .wrap{max-width:1220px;padding:0 85px;display:flex;align-items:center;justify-content:space-between;gap:50px}
+.sobre-txt{max-width:448px;font-family:var(--f-inst)}
+.kicker{font-size:18px;letter-spacing:7.2px;text-transform:uppercase}
+.divisor{height:1px;background:#323232;margin:18px 0}
+.sobre h2{font-family:var(--f-inst);font-size:27px;font-weight:500;color:var(--areia)}
+.sobre p{font-size:18px;font-weight:300;line-height:1.4}
+.sobre-foto{flex:0 1 502px}
+.sobre-foto img{border-radius:25px;width:100%}
+
+/* =========================================================
+   14. FAQ
+   ========================================================= */
+.faq{background:var(--noite);padding:80px 0 100px}
+.faq h2{font-family:var(--f-inst);font-size:66px;font-weight:500;line-height:1.2;letter-spacing:-.03em;color:var(--areia);text-align:center;margin-bottom:40px}
+.acc{max-width:800px;margin:0 auto;font-family:var(--f-inst)}
+.acc details{border-bottom:1px solid #fff}
+.acc summary{
+  list-style:none;cursor:pointer;
+  display:flex;justify-content:space-between;align-items:center;gap:20px;
+  padding:22px 4px;font-size:18px;font-weight:700;color:#fff;transition:color .2s;
+}
+.acc summary::-webkit-details-marker{display:none}
+.acc summary::after{content:"+";font-size:28px;font-weight:400;line-height:1;transition:transform .3s}
+.acc details[open] summary{color:var(--areia)}
+.acc details[open] summary::after{transform:rotate(45deg)}
+.acc summary:focus-visible{outline:2px solid var(--areia);outline-offset:2px}
+.acc .resp{padding:0 4px 22px;font-size:14px;color:#ddd;line-height:1.6}
+.fecho{font-family:"Roboto",sans-serif;font-weight:600;font-size:19px;text-align:center;max-width:780px;margin:50px auto 30px}
+.rodape{text-align:center;color:#777;font-size:13px;padding:30px 20px 40px;border-top:1px solid #1a1f2b;background:var(--noite)}
+
+/* =========================================================
+   ANIMAÇÃO DE ENTRADA
+   ========================================================= */
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease, transform .7s ease}
+.reveal.on{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){
+  .reveal{opacity:1;transform:none;transition:none}
+  .pulse{animation:none}
+  html{scroll-behavior:auto}
+}
+
+/* =========================================================
+   RESPONSIVO
+   ========================================================= */
+@media (max-width:1024px){
+  .hero{min-height:auto;padding:70px 0}
+  .hero h1{font-size:42px}
+  .mega{font-size:72px}
+  .cenarios .titulo{font-size:64px}
+  .grid-brancos{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .sobre .wrap{padding:0 30px}
+}
+@media (max-width:767px){
+  body{font-size:16px}
+  .wrap{padding:0 16px}
+  .btn{padding:20px 26px;font-size:15px;width:100%}
+
+  .hero{padding:40px 0 30px;background-position:70% center}
+  .hero .wrap{flex-direction:column;text-align:center}
+  .hero-txt{flex-basis:auto;align-items:center}
+  .hero-logo{width:55%;margin:0 auto}
+  .hero h1{font-size:34px}
+  .hero-sub{font-size:16px}
+
+  .intro{padding:50px 16px 70px}
+  .card-azul{padding:40px 20px}
+  .lead{font-size:20px}
+
+  .magica{padding:60px 0;background-position:30% center}
+  .magica h2{font-size:36px}
+
+  .metodo{padding:60px 0 40px;background-image:var(--img-secao-mobile), var(--img-secao)}
+  .metodo h2{font-size:38px}
+
+  .frase-faixa{padding-top:40px}
+  .frase-faixa p{font-size:21px}
+
+  .branco{padding:60px 0}
+  .branco h2{font-size:40px}
+  .card-grad{padding:28px;font-size:16px}
+
+  .noite{padding:70px 0}
+  .noite h2.big{font-size:38px}
+  .grid-brancos{grid-template-columns:1fr}
+
+  .mega{font-size:52px;margin-bottom:30px}
+  .lista-check{grid-template-columns:1fr}
+
+  .copiar{padding:50px 16px 80px}
+  .copiar h2{font-size:40px}
+  .faixa-areia{padding:20px}
+
+  .cenarios .titulo{font-size:44px;margin-bottom:30px}
+  .bloco,.bloco.inv{flex-direction:column}
+  .bloco .bloco-img{order:-1}
+  .bloco-img{height:260px}
+  .bloco-txt{min-height:0;padding:34px 20px}
+  .bloco-txt h3{font-size:30px}
+  .bloco-txt p{font-size:16px}
+  .bloco-img,.bloco-txt{flex-basis:auto}
+
+  .oferta{padding:60px 16px}
+  .oferta-card{padding:50px 20px}
+  .preco{font-size:64px;letter-spacing:-3px}
+  .lista-oferta{font-size:16px;line-height:24px}
+
+  .garantia .wrap{flex-direction:column;text-align:center}
+  .garantia img{max-width:240px;margin:0 auto}
+  .garantia h3{font-size:30px}
+  .garantia p{font-size:17px}
+
+  .sobre{padding:70px 0}
+  .sobre .wrap{flex-direction:column;padding:0 16px}
+  .kicker{letter-spacing:4px;font-size:15px}
+
+  .faq h2{font-size:44px}
+  .acc summary{font-size:16px}
+
+  /* roadmap mobile (original) */
+  .roadmap-cuidados{padding:20px 0}
+  .roadmap-line{left:11px;top:50px;bottom:50px;transform:none}
+  .roadmap-item{grid-template-columns:38px 1fr;min-height:120px}
+  .item-left .roadmap-node,.item-right .roadmap-node{grid-column:1;grid-row:1;justify-self:start}
+  .item-left .roadmap-card,.item-right .roadmap-card{grid-column:2;grid-row:1;padding:16px 20px;border-radius:22px;gap:14px}
+  .roadmap-step{display:none}
+  .roadmap-icon{flex-basis:52px;width:52px;height:52px;font-size:13px}
+  .roadmap-content h3{font-size:15px}
+}
+</style>
+
+<script>
+/* Se a imagem local ainda não estiver na pasta /imagens, carrega do endereço original. */
+var IMG_REMOTO = {
+  "imagens/logo.png": "https://profamariaemiliabarbosa.com/wp-content/uploads/2026/09/logo-scaled.png",
+  "imagens/hero-desktop.webp": "https://profamariaemiliabarbosa.com/wp-content/uploads/2026/09/HERO-MODELOS-desk-scaled.webp",
+  "imagens/mockup.webp": "https://profamariaemiliabarbosa.com/wp-content/uploads/2026/09/supermockup.webp",
+  "imagens/bg-secao.png": "https://profamariaemiliabarbosa.com/wp-content/uploads/2026/09/HERO-MODELOS-3-scaled.png",
+  "imagens/bg-secao-mobile.avif": "http://alavanca2030.com.br/wp-content/uploads/2026/04/Bg-4-mobile-scaled.avif",
+  "imagens/icone.png": "https://profamariaemiliabarbosa.com/wp-content/uploads/2026/09/Group-2147204788.png",
+  "imagens/bg-card.avif": "https://profamariaemiliabarbosa.com/wp-content/uploads/2026/09/Bg-card-2.avif",
+  "imagens/bloco-1.png": "https://profamariaemiliabarbosa.com/wp-content/uploads/2026/09/Plano-de-Fundo-1.png",
+  "imagens/bloco-2.png": "https://profamariaemiliabarbosa.com/wp-content/uploads/2026/09/Preenchimento-generativo.png",
+  "imagens/bloco-3.png": "https://profamariaemiliabarbosa.com/wp-content/uploads/2026/09/ChatGPT-Image-1-de-set.-de-2026-20_57_17.png",
+  "imagens/bloco-4.png": "https://profamariaemiliabarbosa.com/wp-content/uploads/2026/09/Camada-1.png",
+  "imagens/bloco-5.png": "https://profamariaemiliabarbosa.com/wp-content/uploads/2026/09/ChatGPT-Image-1-de-set.-de-2026-20_41_27-1.png",
+  "imagens/garantia.png": "https://profamariaemiliabarbosa.com/wp-content/uploads/2026/05/grantia-png-1.png",
+  "imagens/maria-emilia.jpeg": "https://profamariaemiliabarbosa.com/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-19-at-11.26.42-2-scaled.jpeg"
+};
+function fb(img){
+  img.onerror = null;
+  var r = IMG_REMOTO[img.getAttribute("src")];
+  if (r) img.src = r;
+}
+(function(){
+  var vars = {"--img-hero":"imagens/hero-desktop.webp","--img-secao":"imagens/bg-secao.png","--img-secao-mobile":"imagens/bg-secao-mobile.avif","--img-card":"imagens/bg-card.avif"};
+  Object.keys(vars).forEach(function(v){
+    var t = new Image();
+    t.onerror = function(){ var r = IMG_REMOTO[vars[v]]; if (r) document.documentElement.style.setProperty(v, 'url("'+r+'")'); };
+    t.src = vars[v];
+  });
+})();
+</script>
+</head>
+<body>
+
+<!-- =================== 1. HERO =================== -->
+<header class="hero">
+  <div class="wrap">
+    <div class="hero-txt">
+      <img class="hero-logo" src="imagens/logo.png" onerror="fb(this)" alt="Profa. Maria Emília Barbosa">
+      <h1 class="display">+30 modelos de evoluções com diagnósticos e prescrições de enfermagem para você copiar e colar no seu próximo plantão</h1>
+      <p class="hero-sub">Prontos para copiar, adaptar ao seu paciente e transformar o seu registro em uma demonstração real de raciocínio clínico.</p>
+      <a class="btn pulse" href="#d2">Sim, eu quero parar de travar na hora de evoluir</a>
+    </div>
+    <div class="hero-img">
+      <img src="imagens/mockup.webp" onerror="fb(this)" alt="Material com os 30 modelos de evoluções de enfermagem">
+    </div>
+  </div>
+</header>
+
+<main>
+
+<!-- =================== 2. INTRO =================== -->
+<section class="intro" id="d2">
+  <div class="card-azul reveal">
+    <p class="lead">Você não precisa mais terminar um plantão exausta, abrir o prontuário e tentar reconstruir pela memória tudo o que aconteceu com cada paciente.</p>
+    <p class="p-light">Aqui, você recebe modelos completos construídos a partir da rotina da urgência, emergência e UTI, organizados pelo Processo de Enfermagem e pensados para que você saiba exatamente o que avaliar, o que registrar, quais problemas priorizar, quais intervenções considerar e o que reavaliar.</p>
+    <p class="p-light">Não é um arquivo de evoluções comuns que você acha na internet. É uma estrutura de raciocínio pronta para você usar como referência no plantão.</p>
+    <a class="btn" href="#check">Quero copiar, adaptar e evoluir com mais segurança</a>
+  </div>
+</section>
+
+<!-- =================== 3. A MÁGICA =================== -->
+<section class="magica">
+  <div class="wrap">
+    <div class="col reveal">
+      <h2 class="display t-areia">A mágica não é ter um texto pronto. É não precisar começar do zero.</h2>
+      <div class="box-escuro">Você já cuidou do paciente. Monitorizou. Reconheceu alterações. Administrou medicações. Acionou a equipe. Acompanhou exames. Reavaliou. Resolveu intercorrências.</div>
+      <p class="first">Mas, quando chega a hora de registrar, vem a página em branco.</p>
+      <p>E aí aparecem as dúvidas: “Como eu começo?”, “O que não posso esquecer?”, “Esse diagnóstico de enfermagem realmente conversa com o quadro?”, “O que eu coloco no plano de cuidados?”, “Como registro essa intercorrência sem deixar o prontuário genérico?”</p>
+      <p>Os modelos foram criados para eliminar exatamente esse gargalo: você encontra uma estrutura semelhante ao cenário do seu paciente, copia como base, substitui pelos dados que realmente avaliou, exclui o que não se aplica e adapta às condutas efetivamente realizadas.</p>
+      <p>Resultado: menos tempo tentando inventar a estrutura e mais segurança para transformar a assistência prestada em um registro técnico, organizado e individualizado.</p>
+    </div>
+  </div>
+</section>
+
+<!-- =================== 4. MÉTODO =================== -->
+<section class="metodo">
+  <div class="wrap">
+    <h2 class="display t-areia reveal">Um método que organiza o paciente grave antes de organizar o texto</h2>
+    <p class="intro-txt reveal">Nos modelos, você não começa procurando uma frase pronta. Você começa pelo paciente.</p>
+
+    <div class="abcde">
+      <div class="box-escuro reveal"><span class="letra">A</span><span><strong>Via aérea:</strong> permeabilidade, secreções, dispositivos e alterações relevantes.</span></div>
+      <div class="box-escuro reveal"><span class="letra">B</span><span><strong>Ventilação/respiração:</strong> FR, SpO₂, padrão e esforço respiratório, ausculta, suporte de oxigênio ou ventilatório.</span></div>
+      <div class="box-escuro reveal"><span class="letra">C</span><span><strong>Circulação:</strong> PA/PAM, FC e ritmo, pulsos, TEC, perfusão, extremidades, sangramentos e suporte circulatório.</span></div>
+      <div class="box-escuro reveal"><span class="letra">D</span><span><strong>Neurológico:</strong> nível de consciência, Glasgow, pupilas, alterações motoras e outros achados pertinentes.</span></div>
+      <div class="box-escuro reveal"><span class="letra">E</span><span><strong>Exposição:</strong> temperatura, pele, lesões, edema, sangramentos e achados do exame físico.</span></div>
+    </div>
+
+    <p class="depois reveal">Depois do ABCDE, a estrutura continua com dispositivos invasivos, soluções em uso, eliminações e outros dados relevantes. A partir dos achados, o modelo conecta o raciocínio ao Processo de Enfermagem:</p>
+
+    <div class="roadmap-cuidados">
+      <div class="roadmap-line"></div>
+      <div class="roadmap-item item-left reveal"><div class="roadmap-card"><div class="roadmap-icon">01</div><div class="roadmap-content"><h3>ACHADOS</h3></div></div><div class="roadmap-node"></div><div class="roadmap-step"></div></div>
+      <div class="roadmap-item item-right reveal"><div class="roadmap-step"></div><div class="roadmap-node"></div><div class="roadmap-card"><div class="roadmap-icon">02</div><div class="roadmap-content"><h3>DIAGNÓSTICOS</h3></div></div></div>
+      <div class="roadmap-item item-left reveal"><div class="roadmap-card"><div class="roadmap-icon">03</div><div class="roadmap-content"><h3>INTERVENÇÕES</h3></div></div><div class="roadmap-node"></div><div class="roadmap-step"></div></div>
+      <div class="roadmap-item item-right reveal"><div class="roadmap-step"></div><div class="roadmap-node"></div><div class="roadmap-card"><div class="roadmap-icon">04</div><div class="roadmap-content"><h3>PLANO DE CUIDADOS</h3></div></div></div>
+      <div class="roadmap-item item-left reveal"><div class="roadmap-card"><div class="roadmap-icon">05</div><div class="roadmap-content"><h3>RESULTADOS ESPERADOS</h3></div></div><div class="roadmap-node"></div><div class="roadmap-step"></div></div>
+      <div class="roadmap-item item-right reveal"><div class="roadmap-step"></div><div class="roadmap-node"></div><div class="roadmap-card"><div class="roadmap-icon">06</div><div class="roadmap-content"><h3>REAVALIAÇÃO</h3></div></div></div>
+    </div>
+  </div>
+</section>
+
+<div class="frase-faixa">
+  <p class="reveal">É essa sequência que faz o seu registro deixar de ser uma lista de tarefas e passar a mostrar a assistência de enfermagem.</p>
+</div>
+
+<!-- =================== 5. DIAGNÓSTICOS =================== -->
+<section class="branco">
+  <div class="wrap">
+    <h2 class="display reveal">Diagnósticos e intervenções que conversam com o quadro clínico</h2>
+    <div class="cards-3">
+      <div class="card-grad reveal"><img src="imagens/icone.png" onerror="fb(this)" alt=""><p>Você não recebe um diagnóstico jogado no final da evolução. Os modelos mostram como os achados objetivos sustentam os problemas de enfermagem e como esses problemas direcionam intervenções e reavaliações.</p></div>
+      <div class="card-grad reveal"><img src="imagens/icone.png" onerror="fb(this)" alt=""><p>As intervenções foram estruturadas com base em protocolos e diretrizes reconhecidos na prática de urgência e emergência, respeitando a necessidade de adaptação ao protocolo institucional, às competências profissionais, à prescrição quando aplicável e à condição real do paciente.</p></div>
+      <div class="card-grad reveal"><img src="imagens/icone.png" onerror="fb(this)" alt=""><p>Isso significa que você não precisa tentar reconstruir, sob pressão, todo o raciocínio de um pneumotórax hipertensivo, choque, AVC, PCR, crise convulsiva ou outra emergência apenas para conseguir registrar.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- =================== 6. INTERCORRÊNCIAS =================== -->
+<section class="noite">
+  <div class="wrap">
+    <h2 class="display t-areia big reveal">E não são apenas evoluções: você também aprende a registrar intercorrências</h2>
+    <div class="txt reveal">
+      <p>No plantão, nem tudo acontece dentro de uma evolução planejada. O paciente dessatura. Convulsiona. Hipotensa. Deteriora. É transferido. Precisa de um procedimento. E essas mudanças precisam aparecer de forma objetiva e cronológica no prontuário.</p>
+      <p>Por isso, o material também traz registros e estruturas de intercorrências, ajudando você a documentar:</p>
+    </div>
+    <div class="grid-brancos">
+      <div class="card-branco reveal"><span class="num">1</span>O horário em que a alteração foi identificada;</div>
+      <div class="card-branco reveal"><span class="num">2</span>Os dados objetivos observados;</div>
+      <div class="card-branco reveal"><span class="num">3</span>As medidas realizadas pela equipe de enfermagem;</div>
+      <div class="card-branco reveal"><span class="num">4</span>A comunicação e os acionamentos pertinentes;</div>
+      <div class="card-branco reveal"><span class="num">5</span>As intervenções executadas;</div>
+      <div class="card-branco reveal"><span class="num">6</span>A resposta do paciente e a reavaliação.</div>
+    </div>
+  </div>
+</section>
+
+<!-- =================== 7. O QUE MUDA =================== -->
+<section class="noite" style="padding-top:40px">
+  <div class="wrap">
+    <h2 class="display mega reveal">O que muda no seu<br>próximo plantão?</h2>
+    <div class="lista-check">
+      <div class="item-check reveal"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="20" fill="#0A1C2D"/><path d="M12 20.5l5.5 5.5L28.5 15" fill="none" stroke="#FBD19C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Você deixa de depender apenas da memória no final de 12 horas de assistência.</div>
+      <div class="item-check reveal"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="20" fill="#0A1C2D"/><path d="M12 20.5l5.5 5.5L28.5 15" fill="none" stroke="#FBD19C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Deixa de abrir o prontuário sem saber por onde começar.</div>
+      <div class="item-check reveal"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="20" fill="#0A1C2D"/><path d="M12 20.5l5.5 5.5L28.5 15" fill="none" stroke="#FBD19C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Passa a ter um mapa para avaliar e organizar o paciente grave.</div>
+      <div class="item-check reveal"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="20" fill="#0A1C2D"/><path d="M12 20.5l5.5 5.5L28.5 15" fill="none" stroke="#FBD19C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Consegue relacionar achados, diagnósticos, intervenções e resultados com muito mais lógica.</div>
+      <div class="item-check reveal"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="20" fill="#0A1C2D"/><path d="M12 20.5l5.5 5.5L28.5 15" fill="none" stroke="#FBD19C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Tem referência para situações complexas que não aparecem todos os dias.</div>
+      <div class="item-check reveal"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="20" fill="#0A1C2D"/><path d="M12 20.5l5.5 5.5L28.5 15" fill="none" stroke="#FBD19C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Reduz o risco de produzir evoluções genéricas que mostram muito menos do que você realmente fez.</div>
+      <div class="item-check reveal" style="grid-column:1 / -1;max-width:520px;justify-self:center;width:100%"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="20" fill="#0A1C2D"/><path d="M12 20.5l5.5 5.5L28.5 15" fill="none" stroke="#FBD19C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>Ganha velocidade sem transformar o registro em um copia-e-cola cego.</div>
+    </div>
+  </div>
+</section>
+
+<!-- =================== 8. COPIAR E COLAR =================== -->
+<section class="copiar">
+  <div class="card-azul reveal">
+    <h2 class="display t-areia">Copiar e colar? Sim - mas do jeito certo.</h2>
+    <p class="p-light">A proposta é justamente facilitar sua rotina. Você pode usar o modelo como base, copiar a estrutura e adaptar ao perfil do paciente.</p>
+    <p class="p-light">Mas existe uma regra inegociável: só permanece no prontuário aquilo que corresponde ao que você realmente avaliou, observou e realizou.</p>
+    <p class="p-light destaque">Você não copia um paciente. Você copia uma estrutura de raciocínio.</p>
+    <p class="p-light">Troca sinais vitais, achados, dispositivos, soluções, diagnósticos, intervenções, horários e respostas pelos dados reais do seu caso. Assim, o modelo economiza seu tempo sem substituir sua avaliação profissional.</p>
+    <div class="faixa-areia">VOCÊ NÃO PRECISA DECORAR UMA EVOLUÇÃO. PRECISA TER UMA ESTRUTURA QUE TE LEMBRE O QUE NÃO PODE ESQUECER.</div>
+  </div>
+</section>
+
+<!-- =================== 9. 30 CENÁRIOS =================== -->
+<section class="cenarios">
+  <div class="wrap">
+    <h2 class="display titulo reveal">30 cenários para você não ficar sem referência quando o plantão apertar</h2>
+
+    <article class="bloco reveal">
+      <div class="bloco-txt">
+        <span class="selo">BLOCO 1</span>
+        <h3>Emergências cardiovasculares</h3>
+        <p>Emergência hipertensiva, taquicardia supraventricular, infarto com supradesnivelamento, parada cardiorrespiratória em fibrilação ventricular, cardioversão elétrica sincronizada e outros cenários cardiovasculares.</p>
+      </div>
+      <div class="bloco-img"><img src="imagens/bloco-1.png" onerror="fb(this)" alt="Emergências cardiovasculares" loading="lazy"></div>
+    </article>
+
+    <article class="bloco inv reveal">
+      <div class="bloco-img"><img src="imagens/bloco-2.png" onerror="fb(this)" alt="Emergências respiratórias e neurológicas" loading="lazy"></div>
+      <div class="bloco-txt">
+        <span class="selo">BLOCO 2</span>
+        <h3>Emergências respiratórias e neurológicas</h3>
+        <p>Pneumotórax hipertensivo, edema agudo de pulmão, AVC isquêmico, traumatismo cranioencefálico, crise convulsiva tônico-clônica, rebaixamento agudo do nível de consciência e outros cenários críticos.</p>
+      </div>
+    </article>
+
+    <article class="bloco reveal">
+      <div class="bloco-txt">
+        <span class="selo">BLOCO 3</span>
+        <h3>Emergências metabólicas e estados de choque</h3>
+        <p>Hipoglicemia grave, cetoacidose diabética, choque séptico, choque hipovolêmico e situações em que perfusão, metabolismo e reavaliação precisam aparecer claramente no registro.</p>
+      </div>
+      <div class="bloco-img"><img src="imagens/bloco-3.png" onerror="fb(this)" alt="Emergências metabólicas e estados de choque" loading="lazy"></div>
+    </article>
+
+    <article class="bloco inv reveal">
+      <div class="bloco-img"><img src="imagens/bloco-4.png" onerror="fb(this)" alt="Passagens, transferências e situações delicadas" loading="lazy"></div>
+      <div class="bloco-txt">
+        <span class="selo">BLOCO 4</span>
+        <h3>Passagens, transferências e situações delicadas</h3>
+        <p>Transferência para UTI, alta da sala vermelha, óbito, passagem de plantão e registros em momentos nos quais informação incompleta pode comprometer a continuidade da assistência.</p>
+      </div>
+    </article>
+
+    <article class="bloco reveal">
+      <div class="bloco-txt">
+        <span class="selo">BLOCO 5</span>
+        <h3>Emergências metabólicas e estados de choque</h3>
+        <p>Punção intraóssea, procedimentos de emergência, intercorrências durante o cuidado, reavaliações após intervenções e outros registros cronológicos para situações que mudam rapidamente.</p>
+      </div>
+      <div class="bloco-img"><img src="imagens/bloco-5.png" onerror="fb(this)" alt="Procedimentos e intercorrências" loading="lazy"></div>
+    </article>
+  </div>
+</section>
+
+<!-- =================== 10. PARA QUEM =================== -->
+<section class="noite" style="padding:150px 0">
+  <div class="wrap">
+    <h2 class="display mega reveal">Não é só para quem<br>'não sabe evoluir'</h2>
+    <div class="lista-check">
+      <div class="item-check reveal"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="20" fill="#0A1C2D"/><path d="M12 20.5l5.5 5.5L28.5 15" fill="none" stroke="#FBD19C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>É para quem sabe cuidar, mas não quer perder 30 ou 40 minutos reconstruindo o plantão no prontuário.</div>
+      <div class="item-check reveal"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="20" fill="#0A1C2D"/><path d="M12 20.5l5.5 5.5L28.5 15" fill="none" stroke="#FBD19C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>É para quem está começando e quer enxergar como uma evolução completa pode ser estruturada.</div>
+      <div class="item-check reveal"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="20" fill="#0A1C2D"/><path d="M12 20.5l5.5 5.5L28.5 15" fill="none" stroke="#FBD19C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>É para quem já trabalha em emergência ou UTI e quer ganhar velocidade sem empobrecer o registro.</div>
+      <div class="item-check reveal"><svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="20" fill="#0A1C2D"/><path d="M12 20.5l5.5 5.5L28.5 15" fill="none" stroke="#FBD19C" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"/></svg>E é para quem quer que o prontuário demonstre o nível de raciocínio, organização e assistência que entrega à beira-leito.</div>
+    </div>
+  </div>
+</section>
+
+<!-- =================== 11. REFERÊNCIA =================== -->
+<section class="branco">
+  <div class="wrap">
+    <h2 class="display reveal">O objetivo é fazer você se tornar referência também no registro</h2>
+    <div class="cards-3 cards-2">
+      <div class="card-grad reveal"><img src="imagens/icone.png" onerror="fb(this)" alt=""><p>Profissional de referência não é apenas quem executa rápido. É quem avalia com método, reconhece prioridades, sabe o que precisa ser feito dentro das suas competências, reavalia e consegue documentar a assistência com clareza.</p></div>
+      <div class="card-grad reveal"><img src="imagens/icone.png" onerror="fb(this)" alt=""><p>Quando sua evolução tem lógica, dados objetivos, Processo de Enfermagem e continuidade, quem assume o paciente consegue entender o que aconteceu. E o seu registro passa a representar melhor o profissional que você é.</p></div>
+    </div>
+    <div class="btn-area"><a class="btn" href="#check">Quero ter os 30 modelos no meu próximo plantão</a></div>
+  </div>
+</section>
+
+<!-- =================== 12. OFERTA =================== -->
+<section class="oferta" id="check">
+  <div class="oferta-card reveal">
+    <img src="imagens/mockup.webp" onerror="fb(this)" alt="Material com os 30 modelos de evoluções" loading="lazy">
+    <div class="pill">UM RESUMO DE TUDO QUE VOCÊ VAI RECEBER</div>
+    <ul class="lista-oferta">
+      <li><svg viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="11" r="11" fill="#16701F"/><path d="M6.5 11.3l3 3 6-6.3" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>30 modelos de evoluções e registros de situações da urgência, emergência e UTI;</li>
+      <li><svg viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="11" r="11" fill="#16701F"/><path d="M6.5 11.3l3 3 6-6.3" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Estrutura sistematizada de avaliação do paciente grave;</li>
+      <li><svg viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="11" r="11" fill="#16701F"/><path d="M6.5 11.3l3 3 6-6.3" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Diagnósticos de enfermagem relacionados aos achados clínicos;</li>
+      <li><svg viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="11" r="11" fill="#16701F"/><path d="M6.5 11.3l3 3 6-6.3" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Intervenções e cuidados direcionados ao problema identificado;</li>
+      <li><svg viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="11" r="11" fill="#16701F"/><path d="M6.5 11.3l3 3 6-6.3" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Plano de cuidados e resultados esperados;</li>
+      <li><svg viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="11" r="11" fill="#16701F"/><path d="M6.5 11.3l3 3 6-6.3" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Reavaliação e resposta às intervenções;</li>
+      <li><svg viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="11" r="11" fill="#16701F"/><path d="M6.5 11.3l3 3 6-6.3" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Registros cronológicos de intercorrências e situações críticas;</li>
+      <li><svg viewBox="0 0 22 22" aria-hidden="true"><circle cx="11" cy="11" r="11" fill="#16701F"/><path d="M6.5 11.3l3 3 6-6.3" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>Acesso digital para consultar sempre que precisar.</li>
+    </ul>
+    <p class="de">De <s>R$ 297,00</s> por apenas</p>
+    <p class="preco"><small>R$</small>47,00</p>
+    <a class="btn pulse" href="https://pay.kiwify.com.br/ds8dCF3">Quero meus 30 modelos agora</a>
+    <p class="seguro"><svg width="14" height="14" viewBox="0 0 24 24" aria-hidden="true"><path fill="#16701F" d="M12 1 3 5v6c0 5.5 3.8 10.7 9 12 5.2-1.3 9-6.5 9-12V5l-9-4Zm-1.5 15-4-4 1.4-1.4 2.6 2.6 6.1-6.1L18 8.5 10.5 16Z"/></svg>Compra 100% segura · Acesso imediato</p>
+  </div>
+</section>
+
+<!-- =================== 13. GARANTIA =================== -->
+<section class="garantia">
+  <div class="wrap reveal">
+    <img src="imagens/garantia.png" onerror="fb(this)" alt="Selo de garantia de 7 dias" loading="lazy">
+    <div class="g-txt">
+      <h3>7 dias de garantia total.</h3>
+      <p>Você tem 7 dias para acessar o material e decidir se ele faz sentido para a sua rotina. Se não fizer, pode solicitar o reembolso dentro do prazo da garantia.</p>
+    </div>
+  </div>
+</section>
+
+<!-- =================== 14. SOBRE =================== -->
+<section class="sobre">
+  <div class="wrap">
+    <div class="sobre-txt reveal">
+      <p class="kicker">Sobre Maria Emilia</p>
+      <div class="divisor"></div>
+      <h2>QUEM CRIOU OS MODELOS</h2>
+      <div class="divisor"></div>
+      <p>Maria Emília é enfermeira emergencista, professora e especialista em emergência. Os modelos nasceram da experiência prática durante a residência e da necessidade de transformar plantões complexos em registros organizados, completos e aplicáveis à rotina real. Em vez de guardar as estruturas acumuladas ao longo dessa prática, elas foram organizadas em um material de consulta para que outros profissionais não precisem começar do zero a cada novo paciente.</p>
+    </div>
+    <div class="sobre-foto reveal"><img src="imagens/maria-emilia.jpeg" onerror="fb(this)" alt="Maria Emília Barbosa, enfermeira emergencista" loading="lazy"></div>
+  </div>
+</section>
+
+<!-- =================== 15. FAQ =================== -->
+<section class="faq">
+  <div class="wrap">
+    <h2 class="reveal">Perguntas frequentes</h2>
+    <div class="acc">
+      <details open><summary>É só copiar e colar?</summary><div class="resp">Você pode copiar a estrutura e adaptar. O registro final deve sempre refletir os dados reais do paciente, aquilo que foi efetivamente avaliado e as intervenções realmente realizadas.</div></details>
+      <details><summary>Os modelos substituem minha avaliação?</summary><div class="resp">Não. Eles funcionam como referência e estrutura de raciocínio. A avaliação individualizada do paciente continua sendo indispensável.</div></details>
+      <details><summary>Tem Processo de Enfermagem?</summary><div class="resp">Sim. A lógica dos modelos conecta avaliação, problemas/diagnósticos de enfermagem, intervenções, plano de cuidados, resultados esperados e reavaliação.</div></details>
+      <details><summary>As intervenções seguem protocolos?</summary><div class="resp">As intervenções foram estruturadas a partir de protocolos e diretrizes reconhecidos na prática de emergência. Na aplicação, o profissional deve respeitar o protocolo institucional, suas competências e prescrições aplicáveis.</div></details>
+      <details><summary>Serve para quem está começando?</summary><div class="resp">Sim. Quem está começando consegue visualizar uma estrutura completa; quem já atua ganha uma referência para acelerar o registro em cenários complexos.</div></details>
+      <details><summary>É curso ou material de consulta?</summary><div class="resp">É um material digital de referência prática, com modelos prontos para consulta e adaptação.</div></details>
+      <details><summary>Por quanto tempo tenho acesso?</summary><div class="resp">Acesso vitalício, conforme a oferta apresentada na página.</div></details>
+      <details><summary>Quando consigo usar?</summary><div class="resp">Assim que o acesso for liberado, você já pode consultar os modelos e adaptar a estrutura ao seu próximo plantão.</div></details>
+    </div>
+    <p class="fecho reveal">PARE DE COMEÇAR SUAS EVOLUÇÕES DO ZERO. TENHA UMA ESTRUTURA PRONTA PARA ADAPTAR AO SEU PACIENTE.</p>
+    <div class="center"><a class="btn pulse" href="https://pay.kiwify.com.br/ds8dCF3">Quero meus 30 modelos agora</a></div>
+  </div>
+</section>
+
+</main>
+
+<footer class="rodape">© <span id="ano">2026</span> Profa. Maria Emília Barbosa · Todos os direitos reservados</footer>
+
+<script>
+  // animação de entrada
+  (function(){
+    var els = document.querySelectorAll('.reveal');
+    if (!('IntersectionObserver' in window)) { els.forEach(function(e){e.classList.add('on')}); return; }
+    var io = new IntersectionObserver(function(entries){
+      entries.forEach(function(en){ if (en.isIntersecting){ en.target.classList.add('on'); io.unobserve(en.target); } });
+    }, {threshold:.12, rootMargin:'0px 0px -40px 0px'});
+    els.forEach(function(e){ io.observe(e); });
+  })();
+  // FAQ: abre um por vez
+  document.querySelectorAll('.acc details').forEach(function(d){
+    d.addEventListener('toggle', function(){
+      if (d.open) document.querySelectorAll('.acc details').forEach(function(o){ if (o !== d) o.open = false; });
+    });
+  });
+  document.getElementById('ano').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
